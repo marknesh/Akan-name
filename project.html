@@ -58,10 +58,9 @@
 
         var lastHalf = (26 * (monthInput + 1) / 10);
 
-        var dayofWeek = (firstHalf + secondMiddle + lastHalf + dateInput) % 7;
+        var dayofWeek = (parseInt(firstHalf) + parseInt(secondMiddle) + parseInt(lastHalf) + parseInt(dateInput)) % 7;
 
-        day= ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
-        
+                
         alert(dayofWeek)
         
 
