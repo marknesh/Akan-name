@@ -12,11 +12,11 @@
         <fieldset>
     Enter date:
     <br>
-    <input type="number" name="date" >
+    <input type="number" name="date" min="1" max="31">
     <br>
     Enter month:
     <br>
-    <input type="number" name="month" >
+    <input type="number" name="month" min="1" max="12" >
     <br>
     Enter year:
     <br>
@@ -28,7 +28,7 @@
     </form>
 
     <script>
-    function validateForm(){
+    {
 
         var dateInput = document.forms["myForm"]["date"].value;
         
