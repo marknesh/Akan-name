@@ -25,12 +25,10 @@
     <br>
     <input type="number" name="year" min="1900" max="3000000000">
     <br>
-
-    <input type="radio" id="male">male</input>
-    <input type="radio" id="female">female</input>
-        <input type="submit" value="submit" onclick="validateForm()">
-
-
+    <input type="radio" name="gender" value="male" id="male">male</input>
+    <input type="radio" name="gender" value="female" id = "female">female</input>
+         
+        <input type="submit" value="submit" >
 
         </fieldset>
 
@@ -40,12 +38,12 @@
 
     <script>
     function validateForm(){
-
+      
         var dateInput = document.forms["myForm"]["date"].value;
         
         if(dateInput == ""){
                 alert("please fill date");
-                return;
+                return ;
             };
         
         var monthInput = document.forms["myForm"]["month"].value;
@@ -60,7 +58,12 @@
         if (yearInput == "") {
                 alert("Please fill year");
                 return;
-            }
+            };
+        var genderInput = document.forms["myForm"]["gender"].value;
+        if (genderInput == ""){
+            alert("Are you male or female");return;
+        };
+    
 
         var firstHalf = (yearInput.slice(0,2)/4 - 2*yearInput.slice(0,2) - 1);
         
@@ -70,35 +73,41 @@
         var lastHalf = (26 * (monthInput + 1) / 10);
 
         var dayofWeek = (parseInt(firstHalf) + parseInt(secondMiddle) + parseInt(lastHalf) + parseInt(dateInput)) % 7;
+    
 
         day=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
         
-        if(dayofWeek == 1){alert(day[0])};
-        if(dayofWeek == 2){alert(day[6])};
-        if(dayofWeek == 3){alert(day[5])};
-        if(dayofWeek == 4){alert(day[4])};
-        if(dayofWeek == 5){alert(day[3])};
-        if(dayofWeek == 6){alert(day[2])};
-        if(dayofWeek == 7){alert(day[1])};
+        if(dayofWeek == 1){alert("You were born on " + day[0] + "."+ "Please click ok to display your Akan name")};
+        if(dayofWeek == 2){alert("You were born on " + day[1] + "."+ "Please click ok to display your Akan name")};
+        if(dayofWeek == 3){alert("You were born on " + day[2] + "."+ "Please click ok to display your Akan name")};
+        if(dayofWeek == 4){alert("You were born on " + day[3] + "."+ "Please click ok to display your Akan name")};
+        if(dayofWeek == 5){alert("You were born on " + day[4] + "."+ "Please click ok to display your Akan name")};
+        if(dayofWeek == 6){alert("You were born on " + day[5] + "."+ "Please click ok to display your Akan name")};
+        if(dayofWeek == 7){alert("You were born on " + day[6] + "."+ "Please click ok to display your Akan name")};
 
+        maleNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
+        if(dayofWeek ==1 && genderInput == "male"){alert("Your Akan name is "+maleNames[0])}
+        if(dayofWeek ==2 && genderInput == "male"){alert("Your Akan name is "+maleNames[1])}
+        if(dayofWeek ==3 && genderInput == "male"){alert("Your Akan name is "+maleNames[2])}
+        if(dayofWeek ==4 && genderInput == "male"){alert("Your Akan name is "+maleNames[3])}
+        if(dayofWeek ==5 && genderInput == "male"){alert("Your Akan name is "+maleNames[4])}
+        if(dayofWeek ==6 && genderInput == "male"){alert("Your Akan name is "+maleNames[5])}
+        if(dayofWeek ==7 && genderInput == "male"){alert("Your Akan name is "+maleNames[6])}
+
+
+        femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
+        if(dayofWeek ==1 && genderInput == "female"){alert("Your Akan name is "+femaleNames[0])}
+        if(dayofWeek ==2 && genderInput == "female"){alert("Your Akan name is "+femaleNames[1])}
+        if(dayofWeek ==3 && genderInput == "female"){alert("Your Akan name is "+femaleNames[2])}
+        if(dayofWeek ==4 && genderInput == "female"){alert("Your Akan name is "+femaleNames[3])}
+        if(dayofWeek ==5 && genderInput == "female"){alert("Your Akan name is "+femaleNames[4])}
+        if(dayofWeek ==6 && genderInput == "female"){alert("Your Akan name is "+femaleNames[5])}
+        if(dayofWeek ==7 && genderInput == "female"){alert("Your Akan name is "+femaleNames[6])}
         
-        if(day= "tuesday" && male){alert("kwabena")}
-        else if(day= "wednesday" && male){alert("kwaku")}
-        else if(day= "thursday" && male){alert("yaw")}
-        else if(day= "friday" && male){alert("kofi")}
-        else if(day= "saturday" && male){alert("kwame")}
-        else if(day= "sunday" && male){alert("kwasi")}
-        else if (day= "monday" && male){alert("kwadwo")}
+        
 
+    }
     
-        if(day= "tuesday" && female){alert("Abenaa")};return;
-        if(day= "wednesday" && female){alert("Akua")};return;
-        if(day= "thursday" && female){alert("Yaa")};return;
-        if(day= "friday" && female){alert("Afua")};return;
-        if(day= "saturday" && female){alert("Ama")};return;
-        if(day= "sunday" && female){alert("Akosua")};return;
-        if(day= "monday" && female){alert("Adwoa")};return;
-   } 
 </script>
 </div>
     
