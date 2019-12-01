@@ -7,10 +7,9 @@ Then you select whether you are male or female.
 After that the web application will alert you the day you were born.
 Then click Ok to get your Akan name.
 
-<<<<<<< HEAD
 ## Bugs
 Beware of bugs in this project,such as:the leap years are  counted as months of 31 days
-=======
+
 ## Technologies used
 In this project I used HTML ,and to style I used bootstrap css.
 I also created my own css stylesheet to change the background color and fonts.
@@ -27,11 +26,8 @@ If you encounter any problems please feel free to contact me on the contacts pro
 Contact me on : 0723415245
 Email me on: mikeknowles.dez@gmail.com
 
-<<<<<<< HEAD
-=======
 ## Contributors
 [marknesh]
->>>>>>> 8c3c0cea567051d62efbb39fc762e60f99af3892
 
 ## MIT License
 
