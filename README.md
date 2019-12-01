@@ -9,7 +9,7 @@ After that the web application will alert you the day you were born.
 Then click Ok to get your Akan name.
 
 ## Technologies used
-In this project I used HTML and to style I used bootstrap css.
+In this project I used HTML ,and to style I used bootstrap css.
 I also created my own css stylesheet to change the background color and fonts.
 
 ## Known-bugs 
@@ -17,7 +17,11 @@ There are some bugs such as:all years have 31 days in each month hence not recog
 Apologies for any inconveniences caused.
 
 ## Troubleshooting
-If you encounter any problems please feel free to contact me on the contacts provided in the web application.
+If you encounter any problems please feel free to contact me on the contacts provided in the web application and also below.
+
+## Support and contact details
+Contact me on : 0723415245
+Email me on: mikeknowles.dez@gmail.com
 
 ## MIT License
 
