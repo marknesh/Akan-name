@@ -1,9 +1,16 @@
 # Akan-name
 
 
+## Operating
+First you must fill in all your birth details .
+Then you select whether you are male or female.
+After that the web application will alert you the day you were born.
+Then click Ok to get your Akan name.**bold**
 
+## Troubleshooting
+If you encounter any problems please feel free to contact me on the contacts provided in the web application.
 
-MIT License
+## MIT License
 
 Copyright (c) [2019] [Marknesh]
 
