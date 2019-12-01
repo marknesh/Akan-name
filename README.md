@@ -23,9 +23,12 @@ If you encounter any problems please feel free to contact me on the contacts pro
 Contact me on : 0723415245
 Email me on: mikeknowles.dez@gmail.com
 
+## Contributors
+[marknesh]
+
 ## MIT License
 
-Copyright (c) [2019] [Marknesh]
+Copyright (c) [2019] [marknesh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
