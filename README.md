@@ -14,6 +14,7 @@ I also created my own css stylesheet to change the background color and fonts.
 
 ## Known-bugs 
 There are some bugs such as:all years have 31 days in each month hence not recognizing the leap years.
+Apologies for any inconveniences caused.
 
 ## Troubleshooting
 If you encounter any problems please feel free to contact me on the contacts provided in the web application.
