@@ -1,4 +1,4 @@
-# Application-Name
+## Application-Name
 Akan-Name
 
 
@@ -7,6 +7,10 @@ First you must fill in all your birth details .
 Then you select whether you are male or female.
 After that the web application will alert you the day you were born.
 Then click Ok to get your Akan name.
+
+## Technologies used
+In this project I used HTML and to style I used bootstrap css.
+I also created my own css stylesheet to change the background color and fonts.
 
 ## Troubleshooting
 If you encounter any problems please feel free to contact me on the contacts provided in the web application.
