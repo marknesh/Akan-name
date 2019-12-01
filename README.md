@@ -12,6 +12,9 @@ Then click Ok to get your Akan name.
 In this project I used HTML and to style I used bootstrap css.
 I also created my own css stylesheet to change the background color and fonts.
 
+## Known-bugs 
+There are some bugs such as:all years have 31 days in each month hence not recognizing the leap years.
+
 ## Troubleshooting
 If you encounter any problems please feel free to contact me on the contacts provided in the web application.
 
