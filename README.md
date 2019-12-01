@@ -1,7 +1,6 @@
 ## Application-Name
 Akan-Name
 
-
 ## Operating
 First you must fill in all your birth details .
 Then you select whether you are male or female.
@@ -28,10 +27,15 @@ If you encounter any problems please feel free to contact me on the contacts pro
 Contact me on : 0723415245
 Email me on: mikeknowles.dez@gmail.com
 
+<<<<<<< HEAD
+=======
+## Contributors
+[marknesh]
+>>>>>>> 8c3c0cea567051d62efbb39fc762e60f99af3892
 
 ## MIT License
 
-Copyright (c) [2019] [Marknesh]
+Copyright (c) [2019] [marknesh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
