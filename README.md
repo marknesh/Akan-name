@@ -5,7 +5,7 @@
 First you must fill in all your birth details .
 Then you select whether you are male or female.
 After that the web application will alert you the day you were born.
-Then click Ok to get your Akan name.**bold**
+Then click Ok to get your Akan name.
 
 ## Troubleshooting
 If you encounter any problems please feel free to contact me on the contacts provided in the web application.
