@@ -4,6 +4,12 @@ Akan-Name
 
 ![](images/pic.png)
 
+
+## Description
+This project entails an web application that is used to dictate the user's Akan name which is a naming culture in Ghana.
+A user enters his or her birth details and gender,then an alert message pops up showing the day the user was born and the Akan name ,in regards to their gender.
+Please click the link above to see the website and give me feedback.
+
 ## Operating
 First you must fill in all your birth details .
 Then you select whether you are male or female.
