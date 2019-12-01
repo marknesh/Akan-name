@@ -1,6 +1,9 @@
 ## Application-Name
 Akan-Name
 
+
+![](images/pic.png)
+
 ## Operating
 First you must fill in all your birth details .
 Then you select whether you are male or female.
